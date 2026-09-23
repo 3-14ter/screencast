@@ -1,0 +1,29 @@
+# Build output and CMake caches
+build/
+bin/
+obj/
+out/
+CMakeCache.txt
+CMakeFiles/
+
+# Visual Studio & VSCode machine-specific files
+.vs/
+.vscode/*
+!.vscode/settings.json
+
+# Compiled binaries and debug symbols
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+
+# Large reference docs
+docs/*.pdf
+*.pdf
+
+# Operating system files
+Thumbs.db
+.DS_Store
